@@ -1,0 +1,217 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html
+{
+    font-size: 10px;
+}
+div.main-div
+{
+    background-image: linear-gradient(to bottom,rgb(247, 232, 213), white);
+    padding: 0 7.2rem;
+}
+.fudo-logo
+{
+    width: 4rem;
+}
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.6rem;
+    padding:2.7rem 3rem;
+    padding-top: 5rem;
+    padding-bottom: 3.5rem;
+}
+.first-nav-div
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.first-nav-div>span
+{
+    margin-left: 1rem;
+}
+.second-nav-div
+{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+.second-nav-div>a
+{
+    text-decoration: none;
+    color: black;
+}
+.second-nav-div>a:hover,div.floating-div-1>aside>a:hover, div.floating-div-2>aside>h4:hover
+{
+    transform: scale(1.1);
+    color:rgb(255, 0, 43);
+}
+a.about-us
+{
+    color: orangered;
+}
+a.about-us:hover
+{
+    color: black;
+}
+.third-nav-div>a
+{
+    text-decoration: none;
+    background-color: rgb(251, 131, 87);
+    padding: 1.1rem 3rem;
+    border-radius: 1.8rem;
+    color: white;
+}
+.third-nav-div>a:hover, .third-nav-div:hover
+{
+    color: black;
+    transform: scale(1.1);
+}
+.main-section
+{
+    margin: 2.5rem 3.2rem;
+    width: 80vw;
+    display: flex;
+}
+.section-div-1
+{
+    width: 50%;
+    padding-top: 4rem;
+}
+.section-div-2
+{
+    width: 50%;
+    background-image: url(./images/pexels-italo-melo-2379004.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgb(251, 131, 87);
+    border-radius: 50rem;
+    position: relative;
+}
+.button-1, .button-2, .button-3
+{
+    text-decoration: none;
+    font-size: 1.7rem;
+    background-color: bisque;
+    padding: 1rem 2rem;
+    border-radius: 1.8rem;
+    color: rgb(235, 122, 81);
+}
+.button-1:hover, .button-2:hover, .button-3:hover
+{
+    color: black;
+    font-size: 1.8rem;
+    background-color:rgb(253, 103, 48);
+}
+.section-div-1>h1 
+{
+    margin: 3rem 0;
+    font-size: 6rem;
+}
+.section-div-1>h1>b
+{
+    color: rgb(235, 122, 81);
+}
+.section-div-1>h3
+{
+    font-size: 1.8rem;
+    margin-bottom: 4rem;
+}
+.button-2
+{
+    background-color: rgb(251, 131, 87);
+    color: white;
+    margin-right: 1.5rem;
+}
+.button-3
+{
+    color: black;
+}
+div.floating-div-1>img
+{
+    width: 3rem;
+    border-radius: 2rem;
+}
+div.floating-div-1
+{
+    width: 25rem;
+    padding: .5rem .7rem;
+    font-size: 1.4rem;
+    background-color: white;
+    border-radius: 3rem;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 35rem;
+    margin-left: -8rem;
+    box-shadow: .5rem .5rem .7rem;
+}
+div.floating-div-1>aside
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: -4.9rem;
+}
+div.floating-div-1>aside>a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+div.floating-div-1>aside>h4
+{
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+div.floating-div-1:hover
+{
+    transform: scale(1.1);
+}
+div.floating-div-2>img
+{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 1rem;
+}
+div.floating-div-2
+{
+    background-color: white;
+    border-radius: 1.5rem;
+    padding: 1rem;
+    width: 17rem;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-left: 48rem;
+    margin-bottom: 10rem;
+    box-shadow: .5rem .5rem .7rem;
+}
+div.floating-div-2>aside>h4
+{
+    font-size: 1.4rem;
+    margin-top: .4rem;
+    margin-bottom: 2.2rem;
+}
+div.floating-div-2>aside>p
+{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+div.floating-div-2>aside>p>strong
+{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    color: rgb(253, 103, 48);
+}
+div.floating-div-2:hover
+{
+    transform: scale(1.1);
+}
