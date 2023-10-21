@@ -1,0 +1,163 @@
+*{
+    border: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+header{
+    color: black;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding: 10px 4%;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.row-col{
+    display: flex;
+}
+.row-col img{
+    width: 35px;
+    cursor: pointer;
+    object-fit: contain;
+}
+.row-col h4{
+    margin-left: 1rem;
+}
+.home{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+}
+*.fa-bars{
+    padding-top: 5px;
+}
+.home{
+    margin-right: 26rem;
+}
+.home li a{
+    text-decoration: none;
+    color: black;
+}
+.home li a:hover{
+    color: rgb(248, 43, 43);
+}
+.home1{
+    justify-content: space-between;
+}
+*.fa-magnifying-glass{
+    margin-right: 2rem;
+}
+*.fa-bag-shopping{
+    margin-right: 2rem;
+}
+.home1 button{
+    padding: 6px 18px;
+    color: white;
+    background-color: rgb(248, 43, 43);
+    border: 1px solid rgb(248, 43, 43);
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+*.fa-right-to-bracket{
+    margin-right: 0.5rem;
+    cursor: pointer;
+    float: left;
+}
+.content{
+    display: flex;
+}
+.content1{
+    padding-top: 4rem;
+}
+.content1 button{
+    padding: 6px 18px;
+    background-color: rgb(248, 227, 207);
+    color: rgb(248, 43, 43);
+    border: 1px solid rgb(248, 227, 207);
+    border-radius: 20px;
+    cursor: pointer;
+}
+.content1 button img{
+    width: 20px;
+    cursor: pointer;
+    float: right;
+}
+.content1 h1{
+    font-size: 32px;
+    font-family: 'Mulish', sans-serif;
+}
+.content1 h1 b{
+    color: rgb(248, 43, 43);
+}
+.content1 p{
+    font-size: 18px;
+}
+.content20{
+    display: flex;
+}
+.content2{
+    display: flex;
+}
+.content2 img{
+    margin-left: 2rem;
+    width: 40px;
+    cursor: pointer;
+    object-fit: contain;
+}
+.content2 button{
+    padding: 6px 18px;
+    color: white;
+    background-color: rgb(248, 43, 43);
+    border: 1px solid rgb(248, 43, 43);
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+.courier{
+    position: relative;
+    display: inline-block;
+}
+.courier button{
+    position: absolute;
+    display: inline-flex;
+    padding: 6px 18px;
+    color: black;
+    background-color: olive;
+    border: 1px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.courier button img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    object-fit: contain;
+}
+.courier button img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    object-fit: contain;
+}
+
+.bkimg img{
+    height: 500px;
+    width: 450px;
+    margin-left: 12rem;
+    object-fit: contain;
+}
